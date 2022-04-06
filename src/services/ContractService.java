@@ -25,6 +25,7 @@ public class ContractService {
         }
 	}
 	
+	//função para acrescentar meses a uma data 
 	private Date addMonths(Date date, int n) {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(date);
